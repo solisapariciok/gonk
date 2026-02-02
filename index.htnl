@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Open-Meteo API</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+<button on clicks="goTemp()">Temperature</buttons>
+<button onclick="go ="goConditons()">Conditions</button>
+</nav>
+<h1>TEMPERATURE</h1>
+<div id="temp">Loading...</div>
+<div id="condition">Loading...</div>
+</body>
+</html>
